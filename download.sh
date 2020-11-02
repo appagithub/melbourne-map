@@ -20,7 +20,7 @@ tar -xzf ${SHAPES_DIR}/world_boundaries-spherical.tgz -C ${SHAPES_DIR}/
 
 # simplified-water-polygons-complete-3857
 echo "downloading simplified-water-polygons-complete-3857..."
-curl -z "${SHAPES_DIR}/simplified-water-polygons-complete-3857.zip" -L -o "${SHAPES_DIR}/simplified-water-polygons-complete-3857.zip" "http://data.openstreetmapdata.com/simplified-water-polygons-complete-3857.zip"
+curl -z "${SHAPES_DIR}/simplified-water-polygons-complete-3857.zip" -L -o "${SHAPES_DIR}/simplified-water-polygons-complete-3857.zip" "https://ftp.uni-erlangen.de/pub/openstreetmapdata.com-archive/2018-09-23/simplified-water-polygons-complete-3857.zip"
 echo "simplified-water-polygons-complete-3857..."
 unzip $UNZIP_OPTS ${SHAPES_DIR}/simplified-water-polygons-complete-3857.zip \
   simplified-water-polygons-complete-3857/simplified_water_polygons.shp \
@@ -43,7 +43,7 @@ unzip $UNZIP_OPTS ${SHAPES_DIR}/ne_110m_admin_0_boundary_lines_land.zip \
 
 # water-polygons-split-3857
 echo "downloading water-polygons-split-3857..."
-curl -z "${SHAPES_DIR}/water-polygons-split-3857.zip" -L -o "${SHAPES_DIR}/water-polygons-split-3857.zip" "http://data.openstreetmapdata.com/water-polygons-split-3857.zip"
+curl -z "${SHAPES_DIR}/water-polygons-split-3857.zip" -L -o "${SHAPES_DIR}/water-polygons-split-3857.zip" "https://ftp.uni-erlangen.de/pub/openstreetmapdata.com-archive/2018-09-23/water-polygons-split-3857.zip"
 echo "expanding water-polygons-split-3857..."
 unzip $UNZIP_OPTS ${SHAPES_DIR}/water-polygons-split-3857.zip \
   water-polygons-split-3857/water_polygons.shp \
@@ -55,7 +55,7 @@ unzip $UNZIP_OPTS ${SHAPES_DIR}/water-polygons-split-3857.zip \
 
 # antarctica-icesheet-polygons-3857
 echo "downloading antarctica-icesheet-polygons-3857..."
-curl -z "${SHAPES_DIR}/antarctica-icesheet-polygons-3857.zip" -L -o "${SHAPES_DIR}/antarctica-icesheet-polygons-3857.zip" "http://data.openstreetmapdata.com/antarctica-icesheet-polygons-3857.zip"
+curl -z "${SHAPES_DIR}/antarctica-icesheet-polygons-3857.zip" -L -o "${SHAPES_DIR}/antarctica-icesheet-polygons-3857.zip" "https://ftp.uni-erlangen.de/pub/openstreetmapdata.com-archive/2018-09-23/antarctica-icesheet-polygons-3857.zip"
 echo "expanding antarctica-icesheet-polygons-3857..."
 unzip $UNZIP_OPTS ${SHAPES_DIR}/antarctica-icesheet-polygons-3857.zip \
   antarctica-icesheet-polygons-3857/icesheet_polygons.shp \
@@ -66,7 +66,7 @@ unzip $UNZIP_OPTS ${SHAPES_DIR}/antarctica-icesheet-polygons-3857.zip \
 
 # antarctica-icesheet-outlines-3857
 echo "downloading antarctica-icesheet-outlines-3857..."
-curl -z "${SHAPES_DIR}/antarctica-icesheet-outlines-3857.zip" -L -o "${SHAPES_DIR}/antarctica-icesheet-outlines-3857.zip" "http://data.openstreetmapdata.com/antarctica-icesheet-outlines-3857.zip"
+curl -z "${SHAPES_DIR}/antarctica-icesheet-outlines-3857.zip" -L -o "${SHAPES_DIR}/antarctica-icesheet-outlines-3857.zip" "https://ftp.uni-erlangen.de/pub/openstreetmapdata.com-archive/2018-09-23/antarctica-icesheet-outlines-3857.zip"
 echo "expanding antarctica-icesheet-outlines-3857..."
 unzip $UNZIP_OPTS ${SHAPES_DIR}/antarctica-icesheet-outlines-3857.zip \
   antarctica-icesheet-outlines-3857/icesheet_outlines.shp \
